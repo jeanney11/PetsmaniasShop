@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <!-- Awesone CSS -->
+    <script src="https://kit.fontawesome.com/4a5414ff75.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <img src="imagenes/logo.png" width="60" alt="Logo">
+            <a href="#" class="navbar-brand"><span style="color: #035200;">Petsmanias</span>Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" style="color: #035200">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutUs" class="nav-link" style="color: #035200">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#serviceUs" class="nav-link" style="color: #035200">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="catalogo.html" class="nav-link" style="color: #035200">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactUs" class="nav-link" style="color: #035200">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-user"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="signIn.html">SingIn</a></li>
+                  <li><a class="dropdown-item" href="signUp.html">SingUp</a></li>
+                  <li><a class="dropdown-item" href="index.html">SingOut</a></li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+
+    <section>
+        <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1">
+                </button>
+
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                    aria-label="Slide 2">
+                </button>
+
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                    aria-label="Slide 3">
+                </button>
+
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/peluqueria-canina.png" class="d-block w-100" alt="XXX">
+                    <!-- <div class="carousel-caption">
+                        <h5> Playa con buseo</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatibus ipsum tempora
+                            consequatur ullam voluptas sequi provident nesciunt facilis consequuntur consectetur.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">Màs informacion</a>
+                    </div> --> <!-- -->
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/mascotas2.jpg" class="d-block w-100" alt="XXX">
+                    <!-- <div class="carousel-caption">
+                        <h5> Playa con buseo</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatibus ipsum tempora
+                            consequatur ullam voluptas sequi provident nesciunt facilis consequuntur consectetur.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">Màs informacion</a>
+                    </div>-->
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/peces.jpg" class="d-block w-100" alt="XXX">
+                    <!-- <div class="carousel-caption">
+                        <h5> Playa con buseo</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, voluptatibus ipsum tempora
+                            consequatur ullam voluptas sequi provident nesciunt facilis consequuntur consectetur.
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3">Màs informacion</a>
+                    </div>-->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="aboutUs" class="about section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="imagenes/tienda.jpg" width="400" alt="SSS">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text text-center text-white">
+                        <h2>Quienes Somos </h2>
+                        <p>
+                            La tienda de mascotas "Petsmanias" ofrece una amplia variedad de productos y servicios
+                            para el cuidado de nuestros amigos peludos. Su personal es amable y experto, siempre
+                            dispuesto a ayudar con consejos útiles. Además, cuentan con un ambiente limpio y acogedor,
+                            lo que hace que la experiencia de compra sea muy agradable.
+                        </p>
+                        <a href="https://es.wikipedia.org/wiki/Tienda_de_animales"><button class="btn text-white">Mas informacion</button></a>
+                    </div>
+                </div>
+            <div>
+        </div>
+    </section>
+
+    <section id="serviceUs" class="service section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Nuestros Servicios</h2>
+                        <p>El servicio de peluquería canina es excepcional, con groomers que cuidan cada detalle y dejan
+                            a las mascotas luciendo fabulosas. Las consultas veterinarias son profesionales y completas,
+                            asegurando la salud de nuestros peludos. Además, la guardería canina ofrece un ambiente
+                            seguro y divertido, ideal para que los perros socialicen y jueguen mientras sus dueños están
+                            ausentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-award"></i>
+                            <h3 class="card-title">Peluqueria Canina</h3>
+                            <p class="lead">
+                                Servicio que se ocupa del cuidado estético e higiénico de los perros, incluyendo
+                                baño, corte de pelo y recorte de uñas. Además de embellecer a las mascotas, promueve su
+                                salud y bienestar al prevenir problemas de piel y parásitos.
+                            </p>
+                            <a href="https://www.tiendanimal.es/articulos/beneficios-peluqueria-canina/?srsltid=AfmBOoqgkxyrkmyMl0DcApyXd8ZrQFnuPRhzuTmXgBZ4VKfFJ9dVvHRw"><button class="btn text-white">Mas informacion</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-bandaid-fill"></i>
+                            <h3 class="card-title">Consultas y Asesoria</h3>
+                            <p class="lead">
+                                Servicios que brindan atención profesional a los animales, abordando su salud, bienestar
+                                y prevención de enfermedades. Incluyen diagnósticos, tratamientos, vacunas y consejos
+                                sobre el cuidado general de las mascotas.
+                            </p>
+                            <a href="https://www.myhappypet.es/conseils/la-importancia-de-las-visitas-veterinarias-en-la-salud-de-tu-perro"><button class="btn text-white">Mas informacion</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-white text-center pb-2">
+                        <div class="card-body">
+                            <i class="bi bi-heart-fill"></i>
+                            <h3 class="card-title">Guarderia y Jornadas</h3>
+                            <p class="lead">
+                                La guardería canina proporciona un entorno seguro donde los perros pueden socializar y
+                                jugar mientras sus dueños están fuera. Las jornadas caninas incluyen actividades
+                                programadas que fomentan el ejercicio y el bienestar de las mascotas.
+                            </p>
+                            <a href="https://asistencia.ikeargentina.com.ar/novedades/post/importancia-de-un-plan-de-salud-para-perros-y-gatos"><button class="btn text-white">Mas informacion</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Catalogo" class="pedido section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Productos</h2>
+                        <p>Los productos veterinarios, como arneses, jaulas, acuarios y ropa para mascotas, son
+                            esenciales para el bienestar y la comodidad de los animales. Estos artículos facilitan el
+                            transporte, la seguridad, el cuidado y la protección, además de contribuir a la salud y la
+                            higiene de las mascotas. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="imagenes/peces.jpg" class="img-fluid" alt="muestra">
+                            </div>
+                            <h3>Peces y Acuarios</h3>
+                            <p class="lead">Podràs adquirir peceras y peces, ademàs de adornos, juguetes y alimentos
+                                para crear un mundo acuatico</p>
+                            <a href="catalogo.html#marino"><button class="btn text-white">Mas informacion</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="imagenes/mascotas2.jpg" class="img-fluid" alt="muestra">
+                            </div>
+                            <h3>Aves y Roedores</h3>
+                            <p class="lead">Podràs adquirir jaulas y pajaros ornamentales, ademàs de adornos, juguetes y alimentos
+                                para crear un mundo aviar</p>
+                            <a href="catalogo.html#aves"><button class="btn text-white">Mas informacion</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card text-light text-center pb-2">
+                        <div class="card-body text-white">
+                            <div class="img-area mb-4">
+                                <img src="imagenes/mascotas2.webp" class="img-fluid" alt="muestra">
+                            </div>
+                            <h3>Caninos y Felinos</h3>
+                            <p class="lead">Podràs adquirir arnes, collares, vestimenta, juguetes, camas ademàs de adornos y alimentos
+                                para hacerle la vida màs comoda y saludable a tu peludito</p>
+                            <a href="catalogo.html#peludos"><button class="btn text-white">Mas informacion</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="personal" class="team section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Asesores</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quae est ut officiis enim
+                            laudantium eos aliquid atque earum eligendi! Quam!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="imagenes/team1.png" class="img-fluid rounded-circle " alt="team1">
+                            <h3 class="card-title py-2">Juan Pablo</h3>
+                            <p class="card-text"> Gerente General
+                            </p>
+                            <p class="socials">
+                                <a href=""><i class="bi bi-twitter text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-facebook text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-linkedin text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-instagram text-white mx-1"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="imagenes/team2.png" class="img-fluid rounded-circle" alt="team1">
+                            <h3 class="card-title py-2">Jose Manuel</h3>
+                            <p class="card-text"> Especialista en Peluqueria
+                            </p>
+                            <p class="socials">
+                                <a href=""><i class="bi bi-twitter text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-facebook text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-linkedin text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-instagram text-white mx-1"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="imagenes/team3.png" class="img-fluid rounded-circle" alt="team1">
+                            <h3 class="card-title py-2">Gabriel Eduardo</h3>
+                            <p class="card-text"> Gerente de Ventas
+                            </p>
+                            <p class="socials">
+                                <a href=""><i class="bi bi-twitter text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-facebook text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-linkedin text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-instagram text-white mx-1"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center bg-dark">
+                        <div class="card-body text-white">
+                            <img src="imagenes/team4.png" class="img-fluid rounded-circle" alt="team1">
+                            <h3 class="card-title py-2">Reina Lucero</h3>
+                            <p class="card-text"> CEO Principal
+                            </p>
+                            <p class="socials">
+                                <a href=""><i class="bi bi-twitter text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-facebook text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-linkedin text-white mx-1"></i></a>
+                                <a href=""><i class="bi bi-instagram text-white mx-1"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contactUs" class="contact-section-padding">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center text-white pb-5">
+                        <h2>Contactos</h2>
+                        <p>
+                            Visitanos y descubre todos nuestros productos y nuestra amena atenciòn
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0 pt-4 pb-4">
+                    <form action="https://formspree.io/f/xovaoynw" method="POST" class="pb-4 m-auto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="text" size="30" class="form-control" placeholder="Nombre" name="nombre">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="email" size="30" class="form-control" placeholder="Correo" name="correo">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <input type="number" size="30" class="form-control" placeholder="Telèfono" name="telefono">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <textarea class="form-control" placeholder="Mensaje" name="mensaje" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <input type="submit" value="Enviar" class="btn btn-lg btn-block mt-3">
+                            <input type="reset" value="Borrar" class="btn btn-lg btn-block mt-3">
+                        </div>
+                    </form>
+                </div>
+                <div class="ubication text-center"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.572693472611!2d-62.67220949999999!3d8.345183699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8dcbf0708c01c48d%3A0x1cc9826a97c36a80!2sC.%20Urdaneta%2C%20Ciudad%20Guayana%208051%2C%20Bol%C3%ADvar%2C%20Venezuela!5e0!3m2!1ses-419!2sar!4v1727729645472!5m2!1ses-419!2sar"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-2 text-center footer">
+        <div class="container">
+            <div class="piepagina">
+                <div class="grupo1">
+                    <div class="box">
+                        <figure>
+                            <a href="#">
+                                <img src="imagenes/logo.png" alt="Logo">
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="box">
+                        <h3>SIGUENOS</h3>
+                        <div class="redSocial">
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="grupo2">
+                    <p class="text-white"><small>&copy; 2024 <b>JEANNEY REYES</b> - Todos los derechos Reservados.
+                        </small></p>
+                </div>
+            </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

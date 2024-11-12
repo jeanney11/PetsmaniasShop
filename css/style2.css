@@ -1,0 +1,212 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #B1FFA6;
+}
+.section-padding{
+    padding: 70px 0;
+}
+.carousel-item{
+    height: 80vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 30, 82, 0.327);
+    z-index: 1;
+}
+.navbar{
+    background-color: #009184;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-dark .navbar-brand{
+    color: #020c49;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #000;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+.about-text .btn{
+    background-color: #4CE8AC;
+    
+}
+.card{
+    background-color: #190136;
+}
+.services .card-body i{
+    font-size: 50px;
+}
+.card button{
+    background-color: #4CE8AC;
+}
+.pedido .card{
+    background-color: #70043e;
+}
+.pedido .card button{
+    background-color: #4CE8AC;
+}
+.team .card-body{
+    background-color: #190136;
+}
+.team .card-body button{
+    background-color: #4CE8AC;
+}
+.team .card-body i{
+    font-size: 20px;
+}
+.team .rounded-circle{
+    width: 150px;
+}
+.contact-section-padding .btn{
+    background-color: #4CE8AC;
+}
+.ubication{  
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9; 
+}
+.ubication::before{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 30, 82, 0.327);
+    z-index: 1;
+}
+.footer{
+    background-color: #009184;
+    width: 100%;
+    height: 100%;
+}
+.piepagina{
+    width: 100%;
+    /* background-color: #161815; */
+}
+.piepagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.piepagina .grupo1 .box figure{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piepagina .grupo1 .box figure img{
+    width: 50px;
+}
+.piepagina .grupo1 .box h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.piepagina .grupo1 .redSocial a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    text-align: center;
+    transition: all 300ms ease; 
+}
+.piepagina .grupo1 .redSocial a :hover{
+    color: #B1FFA6;
+}
+.piepagina .grupo2{
+    /* background-color: #161815; */
+    padding: 15px 10px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.piepagina .grupo2 small{
+    font-size: 15px;
+}
+
+
+@media(max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-item{
+        height: 70vh;
+    }
+    .w-100{
+        height: 70vh;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.5;
+        font-size: 12px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .section-padding{
+        padding: 50px 0;
+    }
+    .piepagina .grupo2{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+   
+
+}
